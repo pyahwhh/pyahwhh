@@ -19,7 +19,7 @@ CoreGui:SetCore("SendNotification", {
     Duration = 5, 
 })
 		
-local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/nahida-cn/Roblox/main/UI-Library.lua"))()
+local DarkraiX = loadstring(game:HttpGet("未加密停止服务Stop service is not encrypted"))()
 
 local Library = DarkraiX:Window("HUA Alpha Script ", "注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
 
