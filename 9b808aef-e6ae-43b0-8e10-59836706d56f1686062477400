@@ -1,7 +1,7 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "HUA Alpha Test",
+    Title = "HUA Script",
     Text = "请稍等…（反挂机已开启）",
     Duration = 5, 
 })
@@ -21,7 +21,7 @@ CoreGui:SetCore("SendNotification", {
 		
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/nahida-cn/Roblox/main/UI-Library.lua"))()
 
-local Library = DarkraiX:Window("HUA Alpha Script ", "注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("HUA Script X", "注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
 
 Player = Library:Tab("玩家/通用")
 
