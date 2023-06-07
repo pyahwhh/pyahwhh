@@ -19,7 +19,7 @@ CoreGui:SetCore("SendNotification", {
     Duration = 5, 
 })
 		
-local DarkraiX = loadstring(game:HttpGet("https://raw.githubuser"))()
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/uinahida"))()
 
 local Library = DarkraiX:Window("HUA Script X", "注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
 
