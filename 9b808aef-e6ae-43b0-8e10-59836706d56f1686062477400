@@ -124,7 +124,7 @@ Lumber:Button("小云bark", function()
 end)
 
 Lumber:Button("HUA伐木2.0", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/-/main/HUA%20Lumber%20tycoon%20by%20qing?token=GHSAT0AAAAAACDFJFDATCNPPLWSRSJLIZIMZEB6RLA",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/HUA%20Lumber%20tycoon%20v2.0%20thank%20qing%20help%20by%20huishangongzhuoshi",true))()
 end)
 
 Doors = Library:Tab("Doors［🚪］")
@@ -424,7 +424,7 @@ end)
 
 About = Library:Tab("关于我们")
 
-About:Seperator("作者：三岁高材生")
+About:Seperator("作者：徽山工作室")
 
 About:Seperator("感谢以下名单提供帮助:")
 
