@@ -124,7 +124,7 @@ Lumber:Button("小云bark", function()
 end)
 
 Lumber:Button("HUA伐木2.0", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/SL9q5uBt#",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/-/main/HUA%20Lumber%20tycoon%20by%20qing?token=GHSAT0AAAAAACDFJFDATCNPPLWSRSJLIZIMZEB6RLA",true))()
 end)
 
 Doors = Library:Tab("Doors［🚪］")
