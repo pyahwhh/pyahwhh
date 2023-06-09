@@ -1,8 +1,8 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "傻逼HUA",
-    Text = "哈哈哈，傻逼hua被我搞了吧",
+    Title = "HUA Script",
+    Text = "请稍等…（反挂机已开启）",
     Duration = 5, 
 })
 print("反挂机开启")
@@ -14,48 +14,48 @@ print("反挂机开启")
 		end)
 		
 CoreGui:SetCore("SendNotification", {
-    Title = "废物HUA",
-    Text = "哈哈哈哈哈哈哈😄",
+    Title = "HUA 欢迎使用",
+    Text = "OvO😘😚😗😙",
     Duration = 2, 
 })
 
 CoreGui:SetCore("SendNotification", {
-    Title = "傻逼HUA",
-    Text = "就这加密，xswl",
+    Title = "HUA",
+    Text = "脚本加载中请耐心等待😄",
     Duration = 2, 
 })
 		
-local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/uinahida"))()
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/HUA%20UI%20BY%20NAHAIDA%20THANK"))()
 
-local Library = DarkraiX:Window("HUA Script X", "注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("HUA Script X", "注入器：","作者:三岁高材生"..identifyexecutor(), "", Enum.KeyCode.RightControl);
 
-Player = Library:Tab("废物功能1")
+Player = Library:Tab("玩家/通用")
 
-Player:Slider("废物", 0, 500, game.Players.LocalPlayer.Character.Humanoid.WalkSpeed, function(Value)
+Player:Slider("移动速度", 0, 500, game.Players.LocalPlayer.Character.Humanoid.WalkSpeed, function(Value)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
 end)
 
-Player:Slider("废物", 0, 500, game.Players.LocalPlayer.Character.Humanoid.JumpPower, function(Value)
+Player:Slider("跳跃高度", 0, 500, game.Players.LocalPlayer.Character.Humanoid.JumpPower, function(Value)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 end)
 
-Player:Slider("废物", 0, 500, game.Workspace.Gravity, function(Value)
+Player:Slider("重力", 0, 500, game.Workspace.Gravity, function(Value)
     game.Workspace.Gravity = Value
 end)
 
-Player:Slider("废物", 0, 500, game.Workspace.Gravity, function(Value)
+Player:Slider("最大血量", 0, 500, game.Workspace.Gravity, function(Value)
     game.Players.LocalPlayer.Character.Humanoid.MaxHealth = Value
 end)
 
-Player:Slider("废物", 0, 500, game.Workspace.Gravity, function(Value)
+Player:Slider("当前血量", 0, 500, game.Workspace.Gravity, function(Value)
     game.Players.LocalPlayer.Character.Humanoid.Health = Value
 end)
 
-Player:Button("废物", function()
+Player:Button("瞬间满血［部分服务器无效］", function()
     game.Players.LocalPlayer.Character.Humanoid.Health = game.Players.LocalPlayer.Character.Humanoid.MaxHealth 
 end)
 
-Player:Button("废物", function()
+Player:Button("美丽天空", function()
         -- Roblox Graphics Enhancher
     local light = game.Lighting
     for i, v in pairs(light:GetChildren()) do
@@ -69,11 +69,11 @@ Player:Button("废物", function()
     local blur = Inst
 end)
 
-Player:Button("废物", function()
+Player:Button("光影", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jHBfJYmS"))()
 end)
 
-Player:Toggle("废物", false, function(Value)
+Player:Toggle("夜视", false, function(Value)
 		if Value then
 		    game.Lighting.Ambient = Color3.new(1, 1, 1)
 		else
@@ -81,23 +81,23 @@ Player:Toggle("废物", false, function(Value)
 		end
 end)
 
-Player:Button("废物", function()
+Player:Button("爬墙", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
 
-Player:Button("废物", function()
+Player:Button("键盘脚本", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
-Player:Button("废物", function()
+Player:Button("飞行", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/U27yQRxS"))()
 end)
 
-Player:Button("废物", function()
+Player:Button("跟踪玩家", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/F9PNLcXk"))()
 end)
 
-Player:Button("废物", function()
+Player:Button("建筑工具", function()
     Copy = Instance.new("HopperBin")
     Copy.Name = "Copy"
     Copy.BinType = 3
@@ -428,28 +428,28 @@ Dls:Button("传送到下水道区域", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.36086654663086, 12.25178050994873, 17656.04296875)
 end)
 
-About = Library:Tab("关于傻逼的我们")
+About = Library:Tab("关于我们")
 
-About:Seperator("作者：没了")
+About:Seperator("作者：徽山工作室")
 
-About:Seperator("就这？")
+About:Seperator("感谢以下名单提供帮助:")
 
-About:Seperator("笑死我了")
+About:Seperator("纳西妲［技术支持］")
 
-About:Seperator("垃圾作者")
+About:Seperator("西瓜［帮忙测试脚本/赞助］")
 
-About:Seperator("垃圾脚本")
+About:Seperator("十八［提供功能源码］")
 
-About:Seperator("傻逼hua")
+About:Seperator("某沙雕鸭子［提供部分脚本］")
 
-About:Seperator("真废物")
+About:Seperator("乜［帮忙添加白名单］")
 
-About:Seperator("哈哈")
+About:Seperator("无敌魔怔哥长明［赞助］")
 
-Statement = Library:Tab("废物的声明")
+Statement = Library:Tab("声明")
 
-Statement:Seperator("傻逼脚本")
+Statement:Seperator("本脚本永远免费")
 
-Statement:Seperator("xswl")
+Statement:Seperator("脚本中有借鉴其他脚本的地方")
 
-Statement:Seperator("废物作者")
+Statement:Seperator("欢迎加入我们的群聊831780516")
