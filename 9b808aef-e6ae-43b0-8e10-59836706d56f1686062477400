@@ -31,6 +31,10 @@ local Library = DarkraiX:Window("HUA Script X", "注入器：","作者:三岁高
 
 Player = Library:Tab("玩家/通用")
 
+Player:Button("无限R币（真的有用）", function()
+    game.Players.LocalPlayer:Kick("你想什么呢，怎么会有这种bug级别的功能，要有的话，Roblox早他妈倒闭了，傻逼东西，一天天就知道妄想")
+end)
+
 Player:Slider("移动速度", 0, 500, game.Players.LocalPlayer.Character.Humanoid.WalkSpeed, function(Value)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
 end)
