@@ -27,7 +27,7 @@ CoreGui:SetCore("SendNotification", {
 		
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/HUA%20UI%20BY%20NAHAIDA%20THANK"))()
 
-local Library = DarkraiX:Window("HUA Script","您目前使用的注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("HUA Script", "您目前使用的注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
 
 Player = Library:Tab("玩家/通用")
 
@@ -259,6 +259,12 @@ end)
 Quick:Button("传奇公路", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13098.87109375, 216.83917236328125, 5907.6279296875) 
 end)
+
+Lon = Library:Tab("忍者传奇")  
+
+Lon:Button("HUA忍者传奇", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/HUA%20RENZHE%20CHUANQI",true))()
+    end)
 
 Los = Library:Tab("力量传奇")  
 
