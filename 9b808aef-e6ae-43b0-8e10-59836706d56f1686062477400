@@ -27,7 +27,7 @@ CoreGui:SetCore("SendNotification", {
 		
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/HUA%20UI%20BY%20NAHAIDA%20THANK"))()
 
-local Library = DarkraiX:Window("HUA Script", "作者:1924467894","注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("HUA Script","您目前使用的注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
 
 Player = Library:Tab("玩家/通用")
 
