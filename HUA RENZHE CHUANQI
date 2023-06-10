@@ -115,7 +115,7 @@ bcb.Font=Enum.Font.GothamBold;bcb.Text="宠物故障"bcb.TextColor3=Color3.new(0
 bcb.TextSize=15;ccb.Parent=bda;ccb.BackgroundColor3=Color3.new(1,1,1)
 ccb.BackgroundTransparency=1
 ccb.Position=UDim2.new(-0.242063493,0,-0.016447369,0)ccb.Size=UDim2.new(0,753,0,50)
-ccb.Font=Enum.Font.GothamBold;ccb.Text="未知忍者传奇"
+ccb.Font=Enum.Font.GothamBold;ccb.Text="HUA Script欢迎你的使用"
 ccb.TextColor3=Color3.new(0,0,0)ccb.TextSize=35;ccb.TextWrapped=true;local function dcb()
 local acc=Instance.new('LocalScript',ada)frame=acc.Parent.Frame;frame.Draggable=true;frame.Active=true
 frame.Selectable=true end
