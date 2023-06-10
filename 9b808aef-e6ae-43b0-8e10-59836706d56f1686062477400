@@ -25,9 +25,9 @@ CoreGui:SetCore("SendNotification", {
     Duration = 2, 
 })
 		
-local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/nahida-cn/Roblox/main/UI-Library.lua"))()
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/HUA%20UI%20BY%20NAHAIDA%20THANK"))()
 
-local Library = DarkraiX:Window("HUA Alpha Script ", "注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("HUA Script", "作者:1924467894","注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
 
 Player = Library:Tab("玩家/通用")
 
