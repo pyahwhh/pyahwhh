@@ -142,7 +142,7 @@ Lumber:Button("HUA伐木v2.0", function()
 end)
 
 Lumber:Button("HUA伐木v1.5", function()
-    https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/Lumber%20tycoon%20v1.5%20HUA",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/Lumber%20tycoon%20v1.5%20HUA",true))()
 end)
 
 Doors = Library:Tab("Doors［🚪］")
