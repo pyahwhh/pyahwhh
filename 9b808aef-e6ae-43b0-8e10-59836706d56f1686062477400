@@ -27,7 +27,15 @@ CoreGui:SetCore("SendNotification", {
 		
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/HUA%20UI%20BY%20NAHAIDA%20THANK"))()
 
-local Library = DarkraiX:Window("HUA Script", "您目前使用的注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("HUA Alpha Script ", "您目前使用的注入器："..identifyexecutor(), "", Enum.KeyCode.RightControl);
+
+Announcement = Library:Tab("公告")
+
+Announcement:Seperator("当前游戏ID为:" .. game.GameId .. ".",)
+
+Announcement:Seperator("本脚本将持续云端更新")
+
+Announcement:Seperator("当前的脚本版本:V1.75")
 
 Player = Library:Tab("玩家/通用")
 
@@ -137,12 +145,12 @@ Lumber:Button("小云bark", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/bark2.0.lua"))()
 end)
 
-Lumber:Button("HUA伐木v2.0", function()
-    loadstring(game:HttpGet("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x70\x61\x73\x74\x65\x62\x69\x6e\x2e\x63\x6f\x6d\x2f\x72\x61\x77\x2f\x53\x4c\x39\x71\x35\x75\x42\x74",true))()
+Lumber:Button("HUA伐木1.5", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/Lumber%20tycoon%20v1.5%20HUA",true))()
 end)
 
-Lumber:Button("HUA伐木v1.5", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/pyahwhh/main/Lumber%20tycoon%20v1.5%20HUA",true))()
+Lumber:Button("HUA伐木2.0", function()
+    loadstring(game:HttpGet("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x70\x61\x73\x74\x65\x62\x69\x6e\x2e\x63\x6f\x6d\x2f\x72\x61\x77\x2f\x53\x4c\x39\x71\x35\x75\x42\x74",true))()
 end)
 
 Doors = Library:Tab("Doors［🚪］")
