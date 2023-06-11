@@ -31,7 +31,7 @@ local Library = DarkraiX:Window("HUA Alpha Script ", "您目前使用的注入�
 
 Announcement = Library:Tab("公告")
 
-Announcement:Seperator("当前游戏ID为:" .. game.GameId .. ".",)
+Announcement:Seperator("当前游戏ID为:" .. game.GameId .. ".")
 
 Announcement:Seperator("本脚本将持续云端更新")
 
