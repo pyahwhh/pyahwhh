@@ -138,7 +138,7 @@ elseif a=="9460f"then
 _G.whitelisted=true
 elseif a=="sbabcdefj"then
 _G.whitelisted=true
-elseif a=="用户名"then
+elseif a=="shadiao_yazi"then
 _G.whitelisted=true
 elseif a=="用户名"then
 _G.whitelisted=true
