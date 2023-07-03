@@ -203,11 +203,11 @@ loadstring(game:HttpGet("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x6
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "HUA白名单系统",
-    Text = a.."检测到你并没有白名单，以为你转换成密钥系统",
+    Title = "徽山工作室 | 白名单验证",
+    Text = a.."检测到你并没有白名单,正在为你转换成密钥系统…",
     Duration = 5,
 })
   wait(3) --等待三秒
-loadstring(game:HttpGet("https://pastebin.com/raw/WDcnY6e3"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/lalalalaooolalalalaooohmygod1145143334661967584/main/Key%20syteam%20by%20hui%20shan"))()
 
 end
