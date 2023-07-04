@@ -63,10 +63,6 @@ local whitelist_table = {};
     check_whitelist()
 	
 	local function checkModify()
-	
-		local develop = {
-			"pyahwhh",
-		}
 		local plr = game:GetService("Players").LocalPlayer;
 		local is_dev = false;
 		local function isDev()
