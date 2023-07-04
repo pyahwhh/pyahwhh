@@ -46,168 +46,59 @@ CoreGui:SetCore("SendNotification", {
     Duration = 5, --时间
 })
 
-local a=tostring(game.Players.LocalPlayer.Character);
-
-if a=="pyahwhh"then
-_G.whitelisted=true
-elseif a=="liuxinyuu20090831"then
-_G.whitelisted=true
-elseif a=="ea114514yyd2"then
-_G.whitelisted=true
-elseif a=="qsyxddshiwr"then
-_G.whitelisted=true
-elseif a=="ymym999a"then
-_G.whitelisted=true
-elseif a=="123sjkkYRQ"then
-_G.whitelisted=true
-elseif a=="hellowordt125"then
-_G.whitelisted=true
-elseif a=="wgiAmhlb9"then
-_G.whitelisted=true
-elseif a=="shadiao_yazi"then
-_G.whitelisted=true
-elseif a=="qunmde13"then
-_G.whitelisted=true
-elseif a=="shaoyu_sangzi"then
-_G.whitelisted=true
-elseif a=="China134611634"then
-_G.whitelisted=true
-elseif a=="CN_NB07"then
-_G.whitelisted=true
-elseif a=="Wolf_Qing"then
-_G.whitelisted=true
-elseif a=="ghtdfjc"then
-_G.whitelisted=true
-elseif a=="rf14725"then
-_G.whitelisted=true
-elseif a=="wcnmsbxxsj"then
-_G.whitelisted=true
-elseif a=="supermarket2223111"then
-_G.whitelisted=true
-elseif a=="ruhrregh"then
-_G.whitelisted=true
-elseif a=="qw123456bn"then
-_G.whitelisted=true
-elseif a=="utjfjtau"then
-_G.whitelisted=true
-elseif a=="GuangmingRabbit"then
-_G.whitelisted=true
-elseif a=="dajk43"then
-_G.whitelisted=true
-elseif a=="gevecshj37"then
-_G.whitelisted=true
-elseif a=="9Magelp"then
-_G.whitelisted=true
-elseif a=="r3ryyds"then
-_G.whitelisted=true
-elseif a=="qwertyuiop91665"then
-_G.whitelisted=true
-elseif a=="shi_78139"then
-_G.whitelisted=true
-elseif a=="tnndjb"then
-_G.whitelisted=true
-elseif a=="wfcgwty"then
-_G.whitelisted=true
-elseif a=="ILIKETAIWANYAYA"then
-_G.whitelisted=true
-elseif a=="nahida_cn"then
-_G.whitelisted=true
-elseif a=="gtgvtw"then
-_G.whitelisted=true
-elseif a=="linkplkk"then
-_G.whitelisted=true
-elseif a=="jojo64346kvjcj"then
-_G.whitelisted=true
-elseif a=="erpqay"then
-_G.whitelisted=true
-elseif a=="lipuace"then
-_G.whitelisted=true
-elseif a=="hairklr"then
-_G.whitelisted=true
-elseif a=="egdgjsbdjdv"then
-_G.whitelisted=true
-elseif a=="jsnxvxos"then
-_G.whitelisted=true
-elseif a=="nooba9995"then
-_G.whitelisted=true
-elseif a=="sysveyugwgw"then
-_G.whitelisted=true
-elseif a=="wjx_yzm"then
-_G.whitelisted=true
-elseif a=="9460f"then
-_G.whitelisted=true
-elseif a=="sbabcdefj"then
-_G.whitelisted=true
-elseif a=="shadiao_yazi"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-elseif a=="用户名"then
-_G.whitelisted=true
-end
-if _G.whitelisted==true then
-    local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "HUA白名单系统",
-    Text = a.."验证成功，欢迎使用HUA",
-    Duration = 5,
-})
-  wait(3) --等待三秒
-loadstring(game:HttpGet("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x70\x79\x61\x68\x77\x68\x68\x2f\x6c\x61\x6c\x61\x6c\x61\x6c\x61\x6f\x6f\x6f\x6c\x61\x6c\x61\x6c\x61\x6c\x61\x6f\x6f\x6f\x68\x6d\x79\x67\x6f\x64\x31\x31\x34\x35\x31\x34\x33\x33\x33\x34\x36\x36\x31\x39\x36\x37\x35\x38\x34\x2f\x6d\x61\x69\x6e\x2f\x49\x54\x25\x32\x30\x49\x53\x25\x32\x30\x53\x54\x41\x52\x25\x32\x30\x77\x69\x74\x68\x25\x32\x30\x6f\x6e\x65\x25\x32\x30\x64\x65\x6e\x67\x25\x32\x30\x64\x65\x6e\x67\x25\x32\x30\x64\x65\x6e\x67\x25\x32\x30\x64\x65\x68\x6e\x25\x32\x33\x25\x32\x30\x69\x61\x6d\x46\x65\x72\x72\x61\x72\x69\x25\x32\x30\x25\x37\x45\x31\x31\x34\x35\x31\x34\x6f\x6f\x6f\x6c\x61\x6c\x61\x6c\x61\x6c\x61\x6c\x61\x6c\x6c\x61\x6c\x61\x6c\x6c\x61\x6c\x61\x6c\x61",true))()
-    else
-local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "徽山工作室 | 白名单验证",
-    Text = a.."检测到你并没有白名单,正在为你转换成密钥系统…",
-    Duration = 5,
-})
-  wait(3) --等待三秒
-loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/lalalalaooolalalalaooohmygod1145143334661967584/main/Key%20syteam%20by%20hui%20shan"))()
-
-end
+local whitelist_table = {};
+    local check_whitelist = function()  
+        local url = "https://rentry.co/WhitelistVerificationSystem/raw";
+        local res = game.HttpGet(game, url);
+        
+    	whitelist_table = loadstring(res)()
+    	
+    	local plr = game:GetService("Players").LocalPlayer;
+    	table.foreach(whitelist_table, function (i,v)
+    	    if v == plr.Name  then
+    	    	whitelisted = true;
+    	    end
+    	end)
+    end
+    check_whitelist()
+	
+	local function checkModify()
+	
+		local develop = {
+			"pyahwhh",
+		}
+		local plr = game:GetService("Players").LocalPlayer;
+		local is_dev = false;
+		local function isDev()
+			table.foreach(develop, function(i, v)
+				if v == plr.Name then
+					is_dev = true;
+					return true;
+				end
+			end)
+			return is_dev;
+		end
+		getgenv().zhanghuihuihui = nil;
+	end
+	local functions = {
+		checkModify
+	};
+	table.foreach(functions, function(_, v)
+		pcall(v);
+	end)
+	if whitelisted == true then
+		local plr = game:GetService("Players").LocalPlayer;
+		game.StarterGui:SetCore('SendNotification', {
+			Title = '徽山工作室 | 白名单验证',
+			Text = '欢迎您亲爱的 ' .. plr.Name .. ' 正在为您加载…'
+		})
+	loadstring(game:HttpGet("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x70\x79\x61\x68\x77\x68\x68\x2f\x6c\x61\x6c\x61\x6c\x61\x6c\x61\x6f\x6f\x6f\x6c\x61\x6c\x61\x6c\x61\x6c\x61\x6f\x6f\x6f\x68\x6d\x79\x67\x6f\x64\x31\x31\x34\x35\x31\x34\x33\x33\x33\x34\x36\x36\x31\x39\x36\x37\x35\x38\x34\x2f\x6d\x61\x69\x6e\x2f\x49\x54\x25\x32\x30\x49\x53\x25\x32\x30\x53\x54\x41\x52\x25\x32\x30\x77\x69\x74\x68\x25\x32\x30\x6f\x6e\x65\x25\x32\x30\x64\x65\x6e\x67\x25\x32\x30\x64\x65\x6e\x67\x25\x32\x30\x64\x65\x6e\x67\x25\x32\x30\x64\x65\x68\x6e\x25\x32\x33\x25\x32\x30\x69\x61\x6d\x46\x65\x72\x72\x61\x72\x69\x25\x32\x30\x25\x37\x45\x31\x31\x34\x35\x31\x34\x6f\x6f\x6f\x6c\x61\x6c\x61\x6c\x61\x6c\x61\x6c\x61\x6c\x6c\x61\x6c\x61\x6c\x6c\x61\x6c\x61\x6c\x61",true))()
+			else
+			game.StarterGui:SetCore('SendNotification', {
+			Title = '徽山工作室 | 白名单验证',
+			Text = '检测到您未拥有白名单，正在为您切换为密钥协议……'
+		})
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/lalalalaooolalalalaooohmygod1145143334661967584/main/Key%20syteam%20by%20hui%20shan",true))()
+		while true do
+		end
+	end
