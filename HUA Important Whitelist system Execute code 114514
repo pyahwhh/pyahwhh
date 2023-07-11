@@ -87,11 +87,11 @@ local whitelist_table = {};
 			Title = '徽山工作室 | 白名单验证',
 			Text = '欢迎您亲爱的白名单用户正在为您加载…'
 		})
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/lalalalaooolalalalaooohmygod1145143334661967584/main/IT%20IS%20STAR%20with%20one%20deng%20deng%20deng%20dehn%23%20iamFerrari%20%7E114514ooolalalalalallalallalala",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/lalalalaooolalalalaooohmygod1145143334661967584/main/HUA%20YUAN",true))()
 			else
 			game.StarterGui:SetCore('SendNotification', {
 			Title = '徽山工作室 | 白名单验证',
 			Text = '检测到您未拥有白名单，正在为您切换为密钥协议……'
 		})
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/lalalalaooolalalalaooohmygod1145143334661967584/main/Key%20syteam%20by%20hui%20shan",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/lalalalaooolalalalaooohmygod1145143334661967584/main/Key%20syteam%20by%20hui%20shan",true))()
 	end
