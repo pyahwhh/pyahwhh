@@ -87,7 +87,7 @@ local whitelist_table = {};
 			Title = '徽山工作室 | 白名单验证',
 			Text = '欢迎您亲爱的白名单用户正在为您加载…'
 		})
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/lalalalaooolalalalaooohmygod1145143334661967584/main/HUA%20YUAN",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/HUA-VX/main/HUA%20DARKRAI",true))()
 			else
 			game.StarterGui:SetCore('SendNotification', {
 			Title = '徽山工作室 | 白名单验证',
